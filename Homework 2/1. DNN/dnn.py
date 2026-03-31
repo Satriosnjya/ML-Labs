@@ -53,9 +53,9 @@ def forward_pass(X, weights, activations): # Forward Pass (Eq. 6.19) ===
 np.random.seed(42)
 input_size = 784
 hidden1 = 64
-hidden2 = 32
+hidden2 = 16
 output_size = 10
-epochs = 30
+epochs = 1
 best_loss = float('inf')
 best_weights = None
 
